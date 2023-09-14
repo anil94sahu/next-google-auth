@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { getSession } from 'next-auth/react'
 
+// eslint-disable-next-line import/no-anonymous-default-export, react/display-name
 export default () => {
     return (
         <section className="container mx-auto text-center">
